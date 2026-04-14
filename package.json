@@ -1,22 +1,46 @@
 {
-  "name": "todo-list-project-api",
-  "version": "1.0.0",
+  "name": "railway-app",
   "private": true,
-  "description": "Express + MongoDB API for todos",
-  "main": "server.js",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.6.1",
-    "express": "^4.21.2",
-    "mongoose": "^8.16.5",
-    "uuid": "^11.1.0"
+    "@ant-design/icons": "~6.1.1",
+    "@redux-devtools/extension": "^4.0.0",
+    "@tanstack/react-query": "^5.96.2",
+    "@tanstack/react-query-devtools": "^5.96.2",
+    "antd": "^6.3.4",
+    "axios": "^1.14.0",
+    "dayjs": "^1.11.20",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-icons": "^5.6.0",
+    "react-number-format": "^5.4.5",
+    "react-router": "^7.13.2",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@babel/core": "^7.29.0",
+    "@eslint/js": "^9.39.4",
+    "@rolldown/plugin-babel": "^0.2.1",
+    "@tanstack/eslint-plugin-query": "^5.96.2",
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^8.0.1"
   }
 }
-
