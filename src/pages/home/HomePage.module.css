@@ -1,0 +1,15 @@
+.homePageContainer {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.searchForm {
+  margin-top: 12px;
+}
+
+.submitButton {
+  margin-top: 8px;
+}
+
